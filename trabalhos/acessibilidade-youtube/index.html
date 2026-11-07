@@ -1,80 +1,17 @@
 <!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#eaf7f8">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="GMRsVoiage · Portal Acadêmico TADS">
-  <meta name="description" content="Trabalho acadêmico sobre acessibilidade digital na plataforma YouTube, com análise qualitativa dos princípios WCAG 2.2, protótipo e downloads.">
-  <title>Acessibilidade Digital no YouTube · GMRsVoiage TADS</title>
-  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/assets/css/site.css">
-  <script src="/assets/js/site.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-  <div class="ambient ambient-one" aria-hidden="true"></div>
-  <header class="site-header"><div class="container header-inner">
-    <a class="brand" href="/" aria-label="GMRsVoiage TADS — página inicial"><img src="/assets/img/brand-mark.svg" alt="" width="42" height="42"><span class="brand-copy"><strong>GMRsVoiage</strong><span>PORTAL ACADÊMICO <b>·</b> TADS</span></span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu"><span></span><span></span><span></span></button>
-    <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal"><a href="/">Início</a><a href="/trabalhos/" aria-current="page">Trabalhos</a><a href="/#sobre">Sobre o portal</a></nav>
-  </div></header>
-
-  <main id="conteudo" class="container page-main detail-main">
-    <nav class="breadcrumbs" aria-label="Você está aqui"><a href="/">Início</a><span aria-hidden="true">/</span><a href="/trabalhos/">Trabalhos</a><span aria-hidden="true">/</span><span aria-current="page">Acessibilidade no YouTube</span></nav>
-    <header class="detail-hero">
-      <div class="detail-title-wrap"><p class="eyebrow">PROJETO ACADÊMICO · ACESSIBILIDADE DIGITAL</p><h1>Acessibilidade Digital na plataforma YouTube</h1><p class="detail-lead">Avaliação exploratória da interface a partir das Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2 e proposta de melhorias visuais e técnicas.</p>
-        <div class="detail-facts"><span><b>Referencial</b> WCAG 2.2</span><span><b>Objeto de análise</b> YouTube Web</span><span><b>Atividade</b> 06/11/2026</span></div>
-      </div>
-      <div class="detail-mark" aria-hidden="true"><span class="detail-mark-ring"></span><span class="detail-mark-inner">A11Y</span><span class="detail-mark-caption">DESIGN INCLUSIVO</span></div>
-    </header>
-
-    <section class="detail-section" aria-labelledby="about-project-title">
-      <div class="section-heading compact-heading"><div><p class="eyebrow">VISÃO GERAL</p><h2 id="about-project-title">Sobre o trabalho</h2></div></div>
-      <div class="overview-grid"><div class="overview-copy"><p>O trabalho discute como os quatro princípios da WCAG podem orientar a avaliação e a melhoria de uma interface digital utilizada para assistir e compartilhar vídeos.</p><p>O estudo considera aspectos relacionados à percepção das informações, operação por diferentes meios, compreensão da interface e compatibilidade com tecnologias assistivas.</p></div><div class="overview-note"><span class="note-icon" aria-hidden="true">ⓘ</span><div><strong>Nota metodológica</strong><p>O material disponibilizado é uma análise qualitativa e uma proposta de redesign. Ele não representa certificação de conformidade WCAG. Observações práticas devem ser confirmadas em testes reais e documentadas pelo responsável.</p></div></div></div>
-    </section>
-
-    <section class="detail-section" aria-labelledby="wcag-title">
-      <div class="section-heading compact-heading"><div><p class="eyebrow">REFERENCIAL</p><h2 id="wcag-title">Os quatro princípios WCAG</h2></div></div>
-      <div class="wcag-grid">
-        <article class="wcag-card"><span class="wcag-number">01</span><div class="wcag-icon" aria-hidden="true">◉</div><h3>Perceptível</h3><p>Informações e componentes devem ser apresentados de formas que as pessoas consigam perceber.</p><span class="wcag-example">Contraste · Legendas · Texto alternativo</span></article>
-        <article class="wcag-card"><span class="wcag-number">02</span><div class="wcag-icon" aria-hidden="true">⌨</div><h3>Operável</h3><p>Controles e navegação devem funcionar com diferentes formas de interação, inclusive teclado.</p><span class="wcag-example">Foco visível · Teclado · Alvos</span></article>
-        <article class="wcag-card"><span class="wcag-number">03</span><div class="wcag-icon" aria-hidden="true">☷</div><h3>Compreensível</h3><p>Informações e operações devem ser claras, previsíveis e fáceis de entender.</p><span class="wcag-example">Rótulos · Instruções · Consistência</span></article>
-        <article class="wcag-card"><span class="wcag-number">04</span><div class="wcag-icon" aria-hidden="true">⌘</div><h3>Robusto</h3><p>O conteúdo deve ser interpretável por diferentes navegadores e tecnologias assistivas.</p><span class="wcag-example">HTML semântico · Nome acessível</span></article>
-      </div>
-    </section>
-
-    <section class="detail-section" aria-labelledby="prototype-title">
-      <div class="section-heading compact-heading"><div><p class="eyebrow">PROPOSTA DE REDESIGN</p><h2 id="prototype-title">Protótipo de interface</h2><p class="section-intro">Duas telas demonstram como algumas melhorias podem ser organizadas em uma interface de vídeo.</p></div></div>
-      <div class="prototype-grid">
-        <figure class="prototype-figure"><a href="/arquivos/acessibilidade-youtube/01_homepage_acessivel.svg" target="_blank" rel="noopener"><img src="/assets/img/yt-homepage-preview.png" alt="Protótipo da página inicial com pesquisa identificada, navegação lateral e cartões de vídeos"></a><figcaption><strong>Tela 1 — Página inicial</strong><span>Pesquisa identificada, hierarquia visual e navegação mais clara.</span><a href="/arquivos/acessibilidade-youtube/01_homepage_acessivel.svg" target="_blank" rel="noopener">Abrir SVG <span aria-hidden="true">↗</span></a></figcaption></figure>
-        <figure class="prototype-figure"><a href="/arquivos/acessibilidade-youtube/02_reprodutor_acessivel.svg" target="_blank" rel="noopener"><img src="/assets/img/yt-player-preview.png" alt="Protótipo do reprodutor com controles, legendas, configurações e área de transcrição"></a><figcaption><strong>Tela 2 — Reprodução de vídeo</strong><span>Controles identificados, legendas e acesso à transcrição.</span><a href="/arquivos/acessibilidade-youtube/02_reprodutor_acessivel.svg" target="_blank" rel="noopener">Abrir SVG <span aria-hidden="true">↗</span></a></figcaption></figure>
-      </div>
-    </section>
-
-    <section class="detail-section download-section" aria-labelledby="downloads-title">
-      <div class="section-heading compact-heading"><div><p class="eyebrow">ARQUIVOS DO PROJETO</p><h2 id="downloads-title">Materiais para download</h2><p class="section-intro">Baixe os documentos e os arquivos do protótipo.</p></div></div>
-      <div class="download-grid">
-        <article class="download-card"><span class="file-icon pdf-icon" aria-hidden="true">PDF</span><div class="download-info"><h3>Relatório em PDF</h3><p>Documento para leitura e impressão.</p><a class="button button-download" href="/arquivos/acessibilidade-youtube/Relatorio_Acessibilidade_YouTube_WCAG22.pdf" download>Baixar PDF <span aria-hidden="true">↓</span></a></div></article>
-        <article class="download-card"><span class="file-icon doc-icon" aria-hidden="true">DOCX</span><div class="download-info"><h3>Relatório editável</h3><p>Versão para revisão e edição.</p><a class="button button-download" href="/arquivos/acessibilidade-youtube/Relatorio_Acessibilidade_YouTube_WCAG22.docx" download>Baixar DOCX <span aria-hidden="true">↓</span></a></div></article>
-        <article class="download-card"><span class="file-icon zip-icon" aria-hidden="true">ZIP</span><div class="download-info"><h3>Pacote do protótipo</h3><p>Arquivos para importar no Figma.</p><a class="button button-download" href="/arquivos/acessibilidade-youtube/Prototipo_YouTube_Acessivel_Figma.zip" download>Baixar ZIP <span aria-hidden="true">↓</span></a></div></article>
-        <article class="download-card"><span class="file-icon svg-icon" aria-hidden="true">SVG</span><div class="download-info"><h3>Telas vetoriais</h3><p>Arquivos individuais editáveis.</p><div class="inline-downloads"><a href="/arquivos/acessibilidade-youtube/01_homepage_acessivel.svg" download>Tela inicial</a><a href="/arquivos/acessibilidade-youtube/02_reprodutor_acessivel.svg" download>Reprodutor</a></div></div></article>
-      </div>
-    </section>
-
-    <section class="detail-section references-section" aria-labelledby="references-title">
-      <div class="section-heading compact-heading"><div><p class="eyebrow">CONSULTA</p><h2 id="references-title">Referências</h2></div></div>
-      <ul class="reference-list">
-        <li><span>W3C — Web Content Accessibility Guidelines (WCAG) 2.2</span><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">Consultar <span aria-hidden="true">↗</span></a></li>
-        <li><span>W3C — Understanding the Four Principles of Accessibility</span><a href="https://www.w3.org/WAI/WCAG22/Understanding/intro" target="_blank" rel="noopener noreferrer">Consultar <span aria-hidden="true">↗</span></a></li>
-        <li><span>Google — Ajuda do YouTube</span><a href="https://support.google.com/youtube/" target="_blank" rel="noopener noreferrer">Consultar <span aria-hidden="true">↗</span></a></li>
-      </ul>
-    </section>
-    <div class="back-row"><a class="button button-quiet" href="/trabalhos/">← Voltar para trabalhos</a></div>
-  </main>
-
-  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="/">GMRsVoiage <span>· TADS</span></a><p>Portal acadêmico independente. Conteúdo desenvolvido para fins educacionais.</p><div class="footer-bottom"><span>© <span data-current-year>2026</span> GMRsVoiage</span><a href="/trabalhos/">Todos os trabalhos</a><a href="https://github.com/gmrsvoiage" target="_blank" rel="noopener noreferrer">GitHub <span class="external-indicator" aria-hidden="true">↗</span></a></div></div></footer>
-</body>
-</html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#eaf7f8">
+<meta name="description" content="Projeto acadêmico: análise de acessibilidade do YouTube e proposta de melhoria baseada na WCAG 2.2.">
+<title>Acessibilidade no YouTube · Portal Acadêmico TADS</title><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/site.css"><script src="/assets/js/site.js" defer></script></head><body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a><div class="ambient ambient-one" aria-hidden="true"></div>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="Portal acadêmico TADS — início"><img src="/assets/img/brand-mark.svg" alt="" width="42" height="42"><span class="brand-copy"><strong>GMRsVoiage</strong><span>PORTAL ACADÊMICO <b>·</b> TADS</span></span></a><nav class="primary-nav" aria-label="Navegação principal"><a href="/">Início</a><a href="/#projeto" aria-current="page">Projeto em destaque</a><a href="/#sobre">Sobre</a></nav></div></header>
+<main id="conteudo" class="container page-main detail-main"><nav class="breadcrumbs" aria-label="Você está aqui"><a href="/">Início</a><span aria-hidden="true">/</span><span aria-current="page">Acessibilidade no YouTube</span></nav>
+<header class="detail-hero"><div class="detail-title-wrap"><p class="eyebrow">PROJETO ACADÊMICO · WCAG 2.2</p><h1>Acessibilidade Digital no YouTube</h1><p class="detail-lead">Análise da acessibilidade da plataforma e proposta de uma experiência que facilite encontrar e utilizar os recursos de acessibilidade já disponíveis.</p><div class="detail-facts"><span><b>Referencial</b> WCAG 2.2</span><span><b>Objeto</b> YouTube Web</span><span><b>Formato</b> Relatório + protótipo</span></div></div><div class="detail-mark" aria-hidden="true"><span class="detail-mark-ring"></span><span class="detail-mark-inner">A11Y</span><span class="detail-mark-caption">DESIGN INCLUSIVO</span></div></header>
+<section class="detail-section" aria-labelledby="summary-title"><div class="section-heading compact-heading"><div><p class="eyebrow">SOBRE O PROJETO</p><h2 id="summary-title">O que está sendo proposto?</h2></div></div>
+<div class="overview-grid"><div class="overview-copy"><p>O YouTube já oferece recursos importantes de acessibilidade, como navegação por teclado, legendas e transcrições. A proposta deste trabalho não é substituir esses recursos, mas facilitar sua descoberta e configuração.</p><p>Uma das ideias estudadas é oferecer uma entrada simples para opções de acessibilidade durante a navegação por teclado, mantendo a ativação sob controle do usuário.</p></div><div class="overview-note"><span class="note-icon" aria-hidden="true">ⓘ</span><div><strong>Escopo</strong><p>O protótipo representa uma proposta conceitual. Não é uma implementação oficial do YouTube nem uma certificação de conformidade WCAG.</p></div></div></div></section>
+<section class="detail-section" aria-labelledby="links-title"><div class="section-heading compact-heading"><div><p class="eyebrow">MATERIAIS</p><h2 id="links-title">Acesse o trabalho</h2><p class="section-intro">Consulte as versões mais recentes diretamente nas plataformas originais.</p></div></div>
+<div class="download-grid"><article class="download-card"><span class="file-icon doc-icon" aria-hidden="true">DOC</span><div class="download-info"><h3>Relatório acadêmico</h3><p>Leia a análise, os princípios WCAG e as propostas de melhoria no Google Docs.</p><a class="button button-download" href="https://docs.google.com/document/d/16NpGdLkzrZ1KpftF65mJRgsCbYsUe9LC/edit" target="_blank" rel="noopener noreferrer">Abrir relatório <span aria-hidden="true">↗</span></a></div></article>
+<article class="download-card"><span class="file-icon svg-icon" aria-hidden="true">FIG</span><div class="download-info"><h3>Protótipo de interface</h3><p>Visualize as telas e a proposta de experiência no Figma.</p><a class="button button-download" href="https://www.figma.com/design/rakxZikbZr4JgRES6a4IME/Figmas?node-id=0-1" target="_blank" rel="noopener noreferrer">Abrir no Figma <span aria-hidden="true">↗</span></a></div></article></div></section>
+<section class="detail-section references-section" aria-labelledby="references-title"><div class="section-heading compact-heading"><div><p class="eyebrow">REFERÊNCIA</p><h2 id="references-title">Diretrizes utilizadas</h2></div></div><ul class="reference-list"><li><span>W3C — Web Content Accessibility Guidelines (WCAG) 2.2</span><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">Consultar ↗</a></li><li><span>Google — Ajuda do YouTube</span><a href="https://support.google.com/youtube/" target="_blank" rel="noopener noreferrer">Consultar ↗</a></li></ul></section>
+<div class="back-row"><a class="button button-quiet" href="/">← Voltar ao portal</a></div></main>
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="/">GMRsVoiage <span>· TADS</span></a><p>Portal acadêmico independente · Tecnologia em Análise e Desenvolvimento de Sistemas.</p><div class="footer-bottom"><span>© <span data-current-year>2026</span> GMRsVoiage</span><a href="/">Página inicial</a></div></div></footer>
+</body></html>
