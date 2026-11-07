@@ -1,0 +1,12 @@
+{
+  "name": "GMRsVoiage — Portal Acadêmico TADS",
+  "short_name": "TADS GMRsVoiage",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#f5fbfc",
+  "theme_color": "#eaf7f8",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

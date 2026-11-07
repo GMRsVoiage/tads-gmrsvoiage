@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Protótipo de reprodução de vídeo acessível inspirado no YouTube">
+    <defs>
+      <style>
+        text { font-family: Inter, Arial, sans-serif; }
+        .h1 { font-size: 30px; font-weight: 700; }
+        .h2 { font-size: 22px; font-weight: 700; }
+        .body { font-size: 17px; }
+        .small { font-size: 14px; }
+        .muted { font-size: 14px; }
+        .white { }
+        .button { font-size: 16px; font-weight: 700; }
+      </style>
+    </defs>
+    <rect width="1440" height="900" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="34" rx="0" fill="#F4F7FB" stroke="none" stroke-width="1"/>
+<text x="32" y="23" class="small" fill="#003E8C" font-weight="700">Pular para o conteúdo principal  (Tab para acessar)</text>
+<rect x="0" y="34" width="1440" height="86" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="0" y1="119" x2="1440" y2="119" stroke="#DADADA" stroke-width="1"/>
+<rect x="32" y="57" width="42" height="29" rx="8" fill="#C60000" stroke="none" stroke-width="1"/>
+<path d="M49 63 L49 80 L63 71.5 Z" fill="#FFFFFF"/>
+<text x="84" y="80" class="h2" fill="#181818" font-weight="700">YouTube</text>
+<rect x="390" y="51" width="540" height="48" rx="24" fill="#FFFFFF" stroke="#B7B7B7" stroke-width="1"/>
+<text x="416" y="81" class="body" fill="#595959">Pesquisar vídeos</text>
+<rect x="930" y="51" width="58" height="48" rx="0" fill="#EDEDED" stroke="none" stroke-width="1"/>
+<circle cx="957" cy="72" r="9" fill="none" stroke="#181818" stroke-width="2.5"/><line x1="964" y1="79" x2="972" y2="87" stroke="#181818" stroke-width="2.5"/>
+<rect x="1262" y="52" width="146" height="46" rx="23" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="1282" y="81" class="button" fill="#FFFFFF">Entrar</text>
+<text x="48" y="163" class="h1">Reprodução acessível</text>
+<text x="48" y="193" class="small" fill="#595959">Exemplo de uma página de vídeo com controles e conteúdo complementar.</text>
+<rect x="48" y="218" width="850" height="478" rx="16" fill="#13283A" stroke="none" stroke-width="1"/>
+<circle cx="760" cy="310" r="48" fill="#F5D58B" stroke="none" stroke-width="1"/>
+<path d="M48 580 L240 410 L400 555 L560 385 L898 610 L898 696 L48 696 Z" fill="#326B67"/>
+<path d="M48 625 L280 490 L470 642 L650 475 L898 640 L898 696 L48 696 Z" fill="#214E52"/>
+<path d="M48 660 Q240 620 430 665 T898 655 L898 696 L48 696 Z" fill="#173C43"/>
+<rect x="190" y="530" width="566" height="76" rx="10" fill="#000000" stroke="none" stroke-width="1"/>
+<text x="220" y="560" class="body" fill="#FFFFFF" font-weight="700">Este é um exemplo de legenda com alto contraste.</text>
+<text x="220" y="586" class="small" fill="#FFFFFF">As informações importantes também aparecem em texto.</text>
+<rect x="68" y="624" width="810" height="56" rx="10" fill="#0B1721" stroke="none" stroke-width="1"/>
+<circle cx="101" cy="652" r="18" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<path d="M97 641 L97 663 L113 652 Z" fill="#0B1721"/>
+<text x="137" y="658" class="small" fill="#FFFFFF" font-weight="700">Reproduzir</text>
+<rect x="260" y="648" width="300" height="8" rx="4" fill="#697987" stroke="none" stroke-width="1"/>
+<rect x="260" y="648" width="108" height="8" rx="4" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<circle cx="368" cy="652" r="8" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="583" y="658" class="small" fill="#FFFFFF">03:42 / 12:48</text>
+<rect x="690" y="635" width="78" height="34" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="706" y="658" class="small" fill="#111111" font-weight="700">CC</text>
+<rect x="780" y="635" width="80" height="34" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="793" y="658" class="small" fill="#111111" font-weight="700">Opções</text>
+<text x="48" y="739" class="h2">Como tornar conteúdos digitais mais acessíveis</text>
+<text x="48" y="770" class="small" fill="#595959">Canal Aprender  •  125 mil visualizações  •  Publicado há 2 semanas</text>
+<rect x="48" y="790" width="190" height="48" rx="24" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="76" y="820" class="button" fill="#FFFFFF">Inscrever-se</text>
+<rect x="252" y="790" width="148" height="48" rx="24" fill="#F0F0F0" stroke="none" stroke-width="1"/>
+<text x="273" y="820" class="button" fill="#181818">Gostei</text>
+<rect x="930" y="218" width="462" height="620" rx="16" fill="#F7F9FC" stroke="#D7DEE8" stroke-width="1"/>
+<text x="958" y="260" class="h2">Transcrição do vídeo</text>
+<text x="958" y="291" class="small" fill="#595959">Texto sincronizado com a reprodução</text>
+<rect x="958" y="310" width="406" height="52" rx="10" fill="#FFFFFF" stroke="#005FCC" stroke-width="3"/>
+<text x="980" y="343" class="body" fill="#595959">Buscar na transcrição</text>
+<text x="970" y="405" class="small" fill="#003E8C" font-weight="700">00:00</text>
+<text x="1050" y="405" class="small" fill="#222222">Introdução ao tema e aos objetivos.</text>
+<text x="970" y="473" class="small" fill="#003E8C" font-weight="700">00:35</text>
+<text x="1050" y="473" class="small" fill="#222222">Acessibilidade considera diferentes formas de uso.</text>
+<text x="970" y="541" class="small" fill="#003E8C" font-weight="700">01:20</text>
+<text x="1050" y="541" class="small" fill="#222222">Legendas ajudam quem é surdo ou assiste sem áudio.</text>
+<text x="970" y="609" class="small" fill="#003E8C" font-weight="700">02:05</text>
+<text x="1050" y="609" class="small" fill="#222222">A navegação por teclado é essencial.</text>
+<rect x="950" y="650" width="422" height="64" rx="9" fill="#E6F0FF" stroke="none" stroke-width="1"/>
+<text x="970" y="677" class="small" fill="#003E8C" font-weight="700">03:42</text>
+<text x="1050" y="677" class="small" fill="#222222">Descrições claras ajudam leitores de tela.</text>
+<text x="970" y="745" class="small" fill="#003E8C" font-weight="700">04:30</text>
+<text x="1050" y="745" class="small" fill="#222222">O conteúdo deve funcionar em vários dispositivos.</text>
+<rect x="958" y="790" width="406" height="44" rx="10" fill="#FFFFFF" stroke="#B7B7B7" stroke-width="1"/>
+<text x="981" y="818" class="button" fill="#181818">Copiar transcrição</text>
+</svg>

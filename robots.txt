@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tads.gmrsvoiage.com.br/sitemap.xml

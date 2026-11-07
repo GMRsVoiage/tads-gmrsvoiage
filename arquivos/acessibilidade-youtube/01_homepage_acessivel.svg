@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Protótipo de página inicial acessível inspirado no YouTube">
+    <defs>
+      <style>
+        text { font-family: Inter, Arial, sans-serif; }
+        .h1 { font-size: 30px; font-weight: 700; }
+        .h2 { font-size: 22px; font-weight: 700; }
+        .body { font-size: 17px; }
+        .small { font-size: 14px; }
+        .muted { font-size: 14px; }
+        .white { }
+        .button { font-size: 16px; font-weight: 700; }
+      </style>
+    </defs>
+    <rect width="1440" height="900" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1440" height="34" rx="0" fill="#F4F7FB" stroke="none" stroke-width="1"/>
+<text x="32" y="23" class="small" fill="#003E8C" font-weight="700">Pular para o conteúdo principal  (Tab para acessar)</text>
+<rect x="0" y="34" width="1440" height="86" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<line x1="0" y1="119" x2="1440" y2="119" stroke="#DADADA" stroke-width="1"/>
+<rect x="32" y="57" width="42" height="29" rx="8" fill="#C60000" stroke="none" stroke-width="1"/>
+<path d="M49 63 L49 80 L63 71.5 Z" fill="#FFFFFF"/>
+<text x="84" y="80" class="h2" fill="#181818" font-weight="700">YouTube</text>
+<rect x="390" y="51" width="540" height="48" rx="24" fill="#FFFFFF" stroke="#005FCC" stroke-width="3"/>
+<text x="416" y="81" class="body" fill="#595959">Pesquisar vídeos</text>
+<rect x="930" y="51" width="58" height="48" rx="0" fill="#EDEDED" stroke="none" stroke-width="1"/>
+<circle cx="957" cy="72" r="9" fill="none" stroke="#181818" stroke-width="2.5"/><line x1="964" y1="79" x2="972" y2="87" stroke="#181818" stroke-width="2.5"/>
+<rect x="1262" y="52" width="146" height="46" rx="23" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="1282" y="81" class="button" fill="#FFFFFF">Entrar</text>
+<rect x="0" y="120" width="230" height="780" rx="0" fill="#FAFAFA" stroke="none" stroke-width="1"/>
+<line x1="229" y1="120" x2="229" y2="900" stroke="#E5E5E5" stroke-width="1"/>
+<rect x="14" y="150" width="202" height="52" rx="12" fill="#E8F0FE" stroke="none" stroke-width="1"/>
+<text x="34" y="183" class="h2" fill="#003E8C">⌂</text>
+<text x="80" y="182" class="body" fill="#181818" font-weight="700">Início</text>
+<text x="34" y="251" class="h2" fill="#333333">▶</text>
+<text x="80" y="250" class="body" fill="#3F3F3F">Inscrições</text>
+<text x="34" y="319" class="h2" fill="#333333">◷</text>
+<text x="80" y="318" class="body" fill="#3F3F3F">Histórico</text>
+<text x="34" y="387" class="h2" fill="#333333">▣</text>
+<text x="80" y="386" class="body" fill="#3F3F3F">Playlists</text>
+<text x="34" y="455" class="h2" fill="#333333">♥</text>
+<text x="80" y="454" class="body" fill="#3F3F3F">Vídeos marcados</text>
+<line x1="20" y1="505" x2="210" y2="505" stroke="#DDDDDD" stroke-width="1"/>
+<text x="24" y="540" class="small" fill="#595959" font-weight="700">Acessibilidade</text>
+<rect x="18" y="557" width="194" height="48" rx="10" fill="#FFFFFF" stroke="#B7B7B7" stroke-width="1"/>
+<text x="36" y="587" class="small" fill="#181818" font-weight="700">Preferências de leitura</text>
+<text x="270" y="172" class="h1">Explore vídeos</text>
+<text x="270" y="205" class="body" fill="#4A4A4A">Conteúdo organizado para facilitar a leitura e a navegação.</text>
+<rect x="270" y="229" width="84" height="40" rx="20" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="287" y="255" class="small" fill="#FFFFFF" font-weight="700">Todos</text>
+<rect x="364" y="229" width="124" height="40" rx="20" fill="#F0F0F0" stroke="none" stroke-width="1"/>
+<text x="381" y="255" class="small" fill="#242424">Tecnologia</text>
+<rect x="498" y="229" width="106" height="40" rx="20" fill="#F0F0F0" stroke="none" stroke-width="1"/>
+<text x="515" y="255" class="small" fill="#242424">Educação</text>
+<rect x="614" y="229" width="88" height="40" rx="20" fill="#F0F0F0" stroke="none" stroke-width="1"/>
+<text x="631" y="255" class="small" fill="#242424">Música</text>
+<rect x="712" y="229" width="84" height="40" rx="20" fill="#F0F0F0" stroke="none" stroke-width="1"/>
+<text x="729" y="255" class="small" fill="#242424">Jogos</text>
+<rect x="806" y="229" width="97" height="40" rx="20" fill="#F0F0F0" stroke="none" stroke-width="1"/>
+<text x="823" y="255" class="small" fill="#242424">Ciência</text>
+<rect x="270" y="300" width="330" height="185" rx="14" fill="#D9EAFB" stroke="none" stroke-width="1"/>
+<circle cx="434" cy="388" r="44" fill="#0B4A72" stroke="none" stroke-width="1"/>
+<path d="M421 366 L421 410 L460 388 Z" fill="#FFFFFF"/>
+<rect x="519" y="450" width="66" height="25" rx="5" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="529" y="468" class="small" fill="#FFFFFF" font-weight="700">12:48</text>
+<text x="270" y="515" class="body" fill="#181818" font-weight="700">Tecnologia sem complicação</text>
+<text x="270" y="541" class="small" fill="#3F3F3F">Guia de acessibilidade digital</text>
+<text x="270" y="564" class="small" fill="#00512D" font-weight="700">Canal Aprender  •  Legendas disponíveis</text>
+<rect x="635" y="300" width="330" height="185" rx="14" fill="#FCE5D7" stroke="none" stroke-width="1"/>
+<circle cx="799" cy="388" r="44" fill="#8C3A1D" stroke="none" stroke-width="1"/>
+<path d="M786 366 L786 410 L825 388 Z" fill="#FFFFFF"/>
+<rect x="884" y="450" width="66" height="25" rx="5" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="894" y="468" class="small" fill="#FFFFFF" font-weight="700">08:32</text>
+<text x="635" y="515" class="body" fill="#181818" font-weight="700">Como funciona a internet?</text>
+<text x="635" y="541" class="small" fill="#3F3F3F">Conceitos explicados visualmente</text>
+<text x="635" y="564" class="small" fill="#00512D" font-weight="700">Estúdio Ciência  •  Transcrição disponível</text>
+<rect x="1000" y="300" width="330" height="185" rx="14" fill="#E4EEDA" stroke="none" stroke-width="1"/>
+<circle cx="1164" cy="388" r="44" fill="#315B2C" stroke="none" stroke-width="1"/>
+<path d="M1151 366 L1151 410 L1190 388 Z" fill="#FFFFFF"/>
+<rect x="1249" y="450" width="66" height="25" rx="5" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="1259" y="468" class="small" fill="#FFFFFF" font-weight="700">16:05</text>
+<text x="1000" y="515" class="body" fill="#181818" font-weight="700">Criando um projeto do zero</text>
+<text x="1000" y="541" class="small" fill="#3F3F3F">Organização e desenvolvimento</text>
+<text x="1000" y="564" class="small" fill="#00512D" font-weight="700">Oficina Digital  •  Legendas disponíveis</text>
+<rect x="270" y="590" width="330" height="185" rx="14" fill="#F2E2F5" stroke="none" stroke-width="1"/>
+<circle cx="434" cy="678" r="44" fill="#63336B" stroke="none" stroke-width="1"/>
+<path d="M421 656 L421 700 L460 678 Z" fill="#FFFFFF"/>
+<rect x="519" y="740" width="66" height="25" rx="5" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="529" y="758" class="small" fill="#FFFFFF" font-weight="700">10:14</text>
+<text x="270" y="805" class="body" fill="#181818" font-weight="700">Dicas para estudar melhor</text>
+<text x="270" y="831" class="small" fill="#3F3F3F">Métodos simples para aprender</text>
+<text x="270" y="854" class="small" fill="#00512D" font-weight="700">Aprender Hoje  •  Transcrição disponível</text>
+<rect x="635" y="590" width="330" height="185" rx="14" fill="#FDECCB" stroke="none" stroke-width="1"/>
+<circle cx="799" cy="678" r="44" fill="#805500" stroke="none" stroke-width="1"/>
+<path d="M786 656 L786 700 L825 678 Z" fill="#FFFFFF"/>
+<rect x="884" y="740" width="66" height="25" rx="5" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="894" y="758" class="small" fill="#FFFFFF" font-weight="700">21:03</text>
+<text x="635" y="805" class="body" fill="#181818" font-weight="700">Introdução à programação</text>
+<text x="635" y="831" class="small" fill="#3F3F3F">Primeiros passos com lógica</text>
+<text x="635" y="854" class="small" fill="#00512D" font-weight="700">Código Aberto  •  Legendas disponíveis</text>
+<rect x="1000" y="590" width="330" height="185" rx="14" fill="#DFE9F0" stroke="none" stroke-width="1"/>
+<circle cx="1164" cy="678" r="44" fill="#34556D" stroke="none" stroke-width="1"/>
+<path d="M1151 656 L1151 700 L1190 678 Z" fill="#FFFFFF"/>
+<rect x="1249" y="740" width="66" height="25" rx="5" fill="#181818" stroke="none" stroke-width="1"/>
+<text x="1259" y="758" class="small" fill="#FFFFFF" font-weight="700">13:21</text>
+<text x="1000" y="805" class="body" fill="#181818" font-weight="700">Conheça a tecnologia assistiva</text>
+<text x="1000" y="831" class="small" fill="#3F3F3F">Recursos de inclusão digital</text>
+<text x="1000" y="854" class="small" fill="#00512D" font-weight="700">Acesso Para Todos  •  Legendas disponíveis</text>
+<rect x="270" y="860" width="1060" height="1" rx="0" fill="#E1E1E1" stroke="none" stroke-width="1"/>
+<text x="270" y="884" class="small" fill="#003E8C" font-weight="700">Dica: use Tab para navegar, Enter para ativar e Shift + Tab para voltar.</text>
+</svg>
